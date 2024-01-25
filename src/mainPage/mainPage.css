@@ -1,0 +1,143 @@
+.alls{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: white;
+    width: 900px;
+    /* padding: 10px 0px; */
+    height: 580px;
+    position: relative;
+    border-radius: 10px;
+    transform: translate(60%,40%);
+}
+.colorall{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 15px;
+}
+.amountTip{
+    display: flex;
+    gap: 151px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    
+}
+.tip{
+color: white;
+}
+.person{
+    color: rgb(0, 255, 242);
+}
+.right{
+    /* gap: 20px; */
+    padding: 40px 20px;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+    background-color: rgb(0, 99, 165);
+    border-radius: 10px;
+}
+.reset{
+    padding: 15px 180px;
+    border: none;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(0, 195, 255);
+    cursor: pointer;
+}
+.zero{
+    color: rgb(0, 255, 242);
+    padding: 10px;
+  
+    font-size: 27px;
+}
+/* .bills{
+    margin-bottom: 20px;
+} */
+.left{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    gap: 80px;
+}
+.inputBill{
+    padding:10px 10px;
+    width: 300px;
+    border: none;
+    background-color: rgba(177, 177, 177, 0.151);
+    outline: none;
+}
+.btners{
+    padding: 14px 25px;
+   cursor: pointer;
+   border: none;
+   color: white;
+   outline: none;
+   background-color: rgb(1, 156, 156);
+}
+/* .btners.in{} */
+.btners.in::placeholder{
+    color: white;
+}
+.allbtners{
+     gap: 10px;
+    display: flex;
+   flex-wrap: wrap;
+}
+.numsinput{
+    padding:10px 10px;
+    width: 300px;
+    border: none;
+    background-color: rgba(177, 177, 177, 0.151);
+    outline: none;
+}
+@media(min-width:768px){
+    .alls{
+        transform: translate(3%,50%);
+    }
+    
+
+
+}
+@media(min-width:1024px){
+    .alls{
+        transform: translate(10%,30%);
+    }
+    
+
+
+}
+@media(min-width:1280px){
+    .alls{
+        transform: translate(20%,30%);
+    }
+    
+
+
+}
+@media(min-width:1440px){
+    .alls{
+        transform: translate(35%,20%);
+    }
+    
+
+
+}
+@media(min-width:1920px){
+    .alls{
+        transform: translate(60%,40%);
+
+    }
+    
+
+
+}
+
+
+
